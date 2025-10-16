@@ -2586,5 +2586,5 @@ zstandard==0.25.0 \
     --hash=sha256:ffef5a74088f1e09947aecf91011136665152e0b4b359c42be3373897fb39b01
     # via langsmith
 
-# Install the local agentics package
-.
+# Install the local agentics package (editable mode to bypass hash checking)
+-e .
